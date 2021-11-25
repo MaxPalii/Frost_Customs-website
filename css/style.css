@@ -1,0 +1,349 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.addtional-text {
+  font-size: 1.8rem;
+}
+
+.top-hero {
+  position: relative;
+  height: 20rem;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+/*----------*/
+/* NAWIGACJA */
+/*----------*/
+nav {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+nav .navbar-toggler {
+  font-size: 2.5rem;
+}
+
+nav .navbar-brand {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/*----------*/
+/* HEADER */
+/*----------*/
+header {
+  font-size: 2rem;
+}
+
+header .carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+header .carousel-img-one {
+  background-image: url("../img/nur-small.jpg");
+}
+
+header .carousel-img-two {
+  background-image: url("../img/nissan-small.jpg");
+}
+
+header .carousel-img-three {
+  background-image: url("../img/car-small.jpg");
+}
+
+/*----------*/
+/* HOME */
+/*----------*/
+.home-boxes {
+  padding: 5em 0;
+}
+
+.home-boxes .home-box i {
+  font-size: 3rem;
+}
+
+.home-boxes .home-box h3 {
+  font-size: 2.5rem;
+}
+
+/*----------*/
+/* HERO-GRAFIKA */
+/*----------*/
+.home-passion {
+  position: relative;
+  height: 350px;
+  background-image: url("../img/sunset-big.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+/*----------*/
+.home-brand h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/*----------*/
+/* ABOUT US */
+/*----------*/
+.aboutus-hero {
+  background-image: url("../img/about/highway-big.jpg");
+  background-position: bottom;
+}
+
+/*----------*/
+.aboutus-info {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.aboutus-info .container {
+  padding: 2em .5em;
+}
+
+.aboutus-info .aboutus-text {
+  padding: 1.8em;
+}
+
+.aboutus-info .aboutus-text h3 {
+  margin-bottom: 0.5em;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-decoration: underline #007bff;
+          text-decoration: underline #007bff;
+}
+
+.aboutus-info .aboutus-text-right {
+  text-align: right;
+}
+
+.aboutus-info .aboutus-img {
+  height: 300px;
+  background-image: url("../img/about/ferrari-big.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/*----------*/
+.aboutus-bottom i {
+  font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+/*----------*/
+/* Services */
+/*----------*/
+.service-hero {
+  background-image: url("../img/services/car-big.jpg");
+  background-position: 0 75%;
+}
+
+/*----------*/
+.service-hero-box {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.service-hero-box P {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.service-pricing .box-one {
+  background-image: url("../img/services/a1 (4).jpg");
+}
+
+.service-pricing .box-two {
+  background-image: url("../img/services/a1 (1).jpg");
+}
+
+.service-pricing .box-three {
+  background-image: url("../img/services/a1 (3).jpg");
+}
+
+.service-pricing .box-four {
+  background-image: url("../img/services/a1 (2).jpg");
+}
+
+.service-pricing .card-header {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.service-pricing h3 {
+  font-weight: bold;
+}
+
+.service-pricing .btn {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+/*----------*/
+/* Projects */
+/*----------*/
+.projects-hero {
+  background-image: url("../img/Projects/project-hero.jpg");
+  background-position: 0 52%;
+}
+
+.projects img {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+/*----------*/
+/* CONTACT */
+/*----------*/
+.contact-hero {
+  background-image: url("../img/contact/con1.jpg");
+  background-position: 0 40%;
+}
+
+.contact h2,
+.contact h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+}
+
+.contact .contact-logo {
+  font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+  font-size: 1.6rem;
+}
+
+.contact .btn {
+  padding: 0.3em .8em;
+  font-size: 2rem;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 400px;
+}
+
+/*----------*/
+/* FOOTER */
+/*----------*/
+footer {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 992px) {
+  .aboutus-info .container {
+    padding: 0;
+  }
+  .aboutus-info .aboutus-text {
+    padding: 5em 0;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  .aboutus-info .aboutus-text-left {
+    padding-right: 2em;
+    text-align: right;
+  }
+  .aboutus-info .aboutus-text-right {
+    padding-left: 2em;
+    text-align: left;
+  }
+  .aboutus-info .aboutus-img {
+    height: auto;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  .aboutus-shadow {
+    -webkit-box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+            box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media (min-width: 1400px) {
+  .carousel-item {
+    height: 600px;
+  }
+  .carousel-img-one {
+    background-image: url("../img/car-big.jpg");
+  }
+  .carousel-img-two {
+    background-image: url("../img/nissan-big.jpg");
+  }
+  .carousel-img-three {
+    background-image: url("../img/main-carousel-3-hq.jpg");
+  }
+}
+/*# sourceMappingURL=style.css.map */
